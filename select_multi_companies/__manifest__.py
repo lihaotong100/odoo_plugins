@@ -15,6 +15,8 @@
     'depends': ['base','web'],
     'installable': True,
     'application': True,
+    'price': 10,
+    'currency': 'USD',
     'assets': {
         'web.assets_backend': [
             "hh_select_all_companies/static/src/js/company_service.js"
